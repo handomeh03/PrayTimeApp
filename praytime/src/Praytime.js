@@ -32,7 +32,7 @@ export default function Praytime(){
       const asr=response.data.data.timings.Asr;
       const magrb=response.data.data.timings.Maghrib;
       const isha=response.data.data.timings.Isha;
-      setpraytime([{id:uuidv4(),name:"الفجر",time:fajer},{id:uuidv4(),name:"الظهر",time:duhr},{id:uuidv4(),name:"العصر",time:asr},{id:uuidv4(),name:"المغرب",time:magrb},{id:uuidv4(),name:"العشاء",time:isha}])
+      setpraytime([{id:uuidv4(),name:" الفجر",time:fajer},{id:uuidv4(),name:"الظهر",time:duhr},{id:uuidv4(),name:"العصر",time:asr},{id:uuidv4(),name:"المغرب",time:magrb},{id:uuidv4(),name:"العشاء",time:isha}])
     })
     .catch(function (error) {
       console.log(error);
